@@ -224,13 +224,13 @@ gradlePlugin {
         create("wrapperPlugin") {
             displayName = "Rust Wrapper"
             description = "A plugin that wraps Rust's build systems, for embedding Rust libraries in Java projects."
-            id = "fr.stardustenterprises.rust.wrapper"
+            id = "dev.escobot.rust.wrapper"
             implementationClass = "fr.stardustenterprises.gradle.rust.wrapper.WrapperPlugin"
         }
         create("importerPlugin") {
             displayName = "Rust Importer"
             description = "A plugin that makes it possible to import outputs from Rust from another Gradle project."
-            id = "fr.stardustenterprises.rust.importer"
+            id = "dev.escobot.rust.importer"
             implementationClass = "fr.stardustenterprises.gradle.rust.importer.ImporterPlugin"
         }
     }
